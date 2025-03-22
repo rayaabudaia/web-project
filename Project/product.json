@@ -1,0 +1,75 @@
+[
+    {
+      "id": 0,
+      "name": "Red Rose",
+      "price": 50,
+      "image": "/images/redrose.jpg",
+      "quantity":20
+    },
+    {
+      "id": 1,
+      "name": "White Rose",
+      "price": 50,
+      "image": "/images/white.jpg",
+      "quantity":20
+
+        },
+        {
+            "id": 2,
+            "name": "Sun Flower",
+            "price": 80,
+            "image": "/images/sun.jpg",
+            "quantity":20
+        },
+        {
+            "id":3,
+            "name": "Pink Rose",
+            "price": 50,
+            "image": "/images/pink.jpg",
+            "quantity":20
+        },
+        {
+            "id": 4,
+            "name": "Purple Tulip",
+            "price": 100,
+            "image": "/images/purple tulib.jpg",
+            "quantity":20
+        },
+        {
+            "id": 5,
+            "name": "White Tulip",
+            "price": 100,
+            "image": "/images/white tulib.jpg",
+            "quantity":20
+        },
+        {
+            "id": 6,
+            "name": "Pink Tulip",
+            "price": 100,
+            "image": "/images/pinkt.jpg",
+            "quantity":20
+        },
+        {
+            "id": 7,
+            "name": "زهرة الأقحوان",
+            "price": 50,
+            "image": "/images/Q.jpg",
+            "quantity":20
+        },
+        {
+            "id": 8,
+            "name": "Yellow Tulip",
+            "price": 100,
+            "image": "/images/yellowt.jpg",
+            "quantity":20
+        },
+        {
+            "id":9,
+            "name": "Blue Flower",
+            "price": 100,
+            "image": "/images/blue.jpg",
+            "quantity":20
+        }
+
+    ]
+    

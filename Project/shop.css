@@ -1,0 +1,293 @@
+body{
+    background: #f4ecec;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.line{
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    top: 100px;
+    height: 1px;
+}
+.container{
+    width: 1200px;
+    margin-left: 130px;
+    max-width: 90%;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    position: relative;
+    top: 200px;
+}
+.products .item img{
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.523);
+}
+.products .item h2{
+font-weight: 400;
+font-family:"Montserrat", sans-serif;
+position: relative;
+left:  40px;
+top:10px;
+}
+.products .item .price{
+    font-weight: 600;
+    font-family:"Montserrat", sans-serif;
+    position: relative;
+    left:  80px;
+    margin-top: 15px;
+    }
+.products .item{
+    position: relative;
+}
+.products .item button{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    background: #b48fbde8;
+    cursor: pointer;
+    color: beige;
+    width: 150px;
+    padding: 10px 40px;
+    box-shadow: 0 10px 50px black;
+    border: none;
+    transform: translateX(-50%) translateY(100px);
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    opacity: 0;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+}
+.products .item:hover button{
+transition: 0.5s;
+opacity: 1;
+transform: translateX(-50%);
+}
+.hproducts {
+position: relative;
+top: 150px;
+text-align: center;
+font-family: "Rowdies", sans-serif;
+font-size: 40px;
+}
+#para{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+#para2{
+    position: relative;
+    top: 1000px;
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.container2{
+    width: 1200px;
+    margin-left: 130px;
+    max-width: 90%;
+  
+}
+.products2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    position: relative;
+    top: 450px;
+}
+.products2 .item2 img{
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.523);
+}
+.products2 .item2 h2{
+font-weight: 400;
+font-family:"Montserrat", sans-serif;
+position: relative;
+left: 33px;
+top:10px;
+}
+.price2{
+    font-weight: 600;
+    font-family:"Montserrat", sans-serif;
+    position: relative;
+    left:  80px;
+    margin-top: 15px;
+
+ }
+
+.products2 .item2{
+    position: relative;
+}
+.products2 .item2 button{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    background: #b48fbde8;
+    cursor: pointer;
+    color: beige;
+    width: 150px;
+    padding: 10px 40px;
+    box-shadow: 0 10px 50px black;
+    border: none;
+    transform: translateX(-50%) translateY(100px);
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    opacity: 0;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+}
+.products2 .item2:hover button{
+transition: 0.5s;
+opacity: 1;
+transform: translateX(-50%);
+}
+.cart
+{
+ color: aliceblue;
+ position: fixed; 
+ top: 0;
+ right: -100%;
+ width: 450px;
+ height: 100vh;
+ background-color:#BE98C8;
+ display: grid;  
+ grid-template-rows: 50px 1fr 50px;
+ transition: right 1s;
+ z-index: 2;
+}
+
+.cart h2{
+    color: black;
+    padding: 20px;
+    margin: 0;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.cart .listCart .item{
+    display: grid;
+    grid-template-columns: 50px 1fr 70px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cart .listCart img{
+    width: 65px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cart .listCart .item .name{
+    font-weight: 400;
+    font-family:"Montserrat", sans-serif ;
+    padding-left: 25px;
+}
+.cart .listCart .item .price{
+    font-weight: 400;
+    font-family:"Montserrat", sans-serif ;
+    padding-left: 25px;
+}
+.cart .listCart .item .quantity{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(251, 251, 249);
+    border-radius: 10px;
+    width: 90px;
+    position: relative;
+    right: 20px;
+}
+.cart .listCart .item span{
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+.cart .listCart .item .remove button{
+    position: relative;
+    bottom: 35px;
+    left: 325px;
+    border: none;
+    text-decoration: underline;
+    background-color: #BE98C8;
+    text-underline-offset: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    font-family:"Montserrat", sans-serif ;
+     margin-top: 25px;
+     height: 10px;
+}
+.cart .listCart .item .quantity button{
+    font-family:"Montserrat", sans-serif ;
+    color: #000;
+    width: 100px;
+    background-color: rgb(251, 251, 249);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top:5px ;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+ }
+ .cart .listCart .item .quantity button:hover{
+background-color: #cbcaca;
+ }
+.cart .listCart{
+    padding: 20px;
+    overflow: auto;
+}
+.cart .listCart ::-webkit-scrollbar{
+    width: 0;
+} 
+.cart .buttons{
+   display: grid;
+   grid-template-columns:repeat(2,1fr) ; 
+   text-align: center;
+   gap: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-family:"Montserrat", sans-serif ;
+   color: black;
+   background-color: #BE98C8;
+   
+
+}
+.cart .buttons div{
+    background-color: #69546e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+    width: 200px;
+    position: relative;
+
+}
+.cart .buttons a{
+    text-decoration: none;
+    color: black;
+}
+.cart .buttons :hover{
+    background-color: beige;
+}
